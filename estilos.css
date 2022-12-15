@@ -1,0 +1,76 @@
+body{
+    height: 630px;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(fondo.webp);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+form {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border: solid 1px #ffffff;
+    box-shadow: 7px 13px 37px white;
+    padding-bottom: 10px;
+    margin: auto;
+    background: #000000;
+  }
+  .enca{
+      color: white;
+  }
+  input[type=textfield] {
+      width: 75%;
+      padding: 16px 32px;
+      font-size: 16px;
+      margin: 8px 0;
+      border: 1px solid rgb(0, 0, 0);
+      border-radius: 1px;
+      text-align: left;
+      color: white;
+      background: rgb(0, 0, 0);
+  }
+  input[type=button], input[type=submit], input[type=reset] {
+      background-color: #b4b4b4;
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      font-size: 16px;
+      min-width: 21%;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+  }
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #333;
+  }
+  #a{
+    background-color: #ffa600;
+    width: 5px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    min-width: 21%;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  #a:hover{
+    background-color: #333;
+  }
+  #clear{
+    background-color: #b4b4b4;
+    height: 47px;
+    width: 174px;
+    border: none;
+    color: white;
+    min-width: 21%;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 4px 2px;
+    text-align: center;
+  }
+  #clear:hover{
+    background-color: #333;
+  }
