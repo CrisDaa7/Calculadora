@@ -12,7 +12,7 @@
     <h3 class="enca">Cris_Calculadora</h3>
     <input type="textfield" name="ans" value="">
     <br>
-    <input id="clear" value="Clear">
+    <input id="clear" type="reset"value="Clear">
     <input type="button" value="%" onClick="document.calculator.ans.value+='2'">
     <input id="a"type="button" value="÷" onClick="document.calculator.ans.value+='/'">
     <br>
@@ -31,7 +31,7 @@
     <input type="button" value="3" onClick="document.calculator.ans.value+='3'">
     <input id="a"type="button" value="+" onClick="document.calculator.ans.value+='+'">
     <br>
-    <input  id="clear"value="0" onClick="document.calculator.ans.value+='0'">
+    <input  id="clear" type="button"value="0" onClick="document.calculator.ans.value+='0'">
     <input type="button" value="." onClick="document.calculator.ans.value+='.'">
     <input id="a"type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
     </form>
